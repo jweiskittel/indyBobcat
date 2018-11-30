@@ -1,0 +1,98 @@
+.navbtns {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: solid 4px black;
+    width: 70vw;
+    height: 50px;
+    margin: auto;
+    background: linear-gradient(rgb(59, 55, 55), black);
+}
+
+.navbtn, .navbtn2 {
+    line-height: 40px;
+    font-size: 21px;
+    padding: 0px 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbtn:hover {
+    background: linear-gradient(#e93100, #7e1b00)
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(black, rgb(59, 55, 55));
+    width: 70vw;
+    /* height: 14vh; */
+    height: 105px;
+    margin: auto
+}
+
+.middle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 44px;
+    text-shadow: 2px 2px gray;
+    color: #e93100;
+    padding-top: 2vh
+}
+
+.sides {
+    padding-top: 5vh;
+    font-size: 20px;
+    color: white;
+}
+
+.navbtn2 {
+    position: relative
+}
+
+.navbtn2:hover {
+    background: linear-gradient(#e93100, #7e1b00)
+}
+
+.navbtn2:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    left: 0;
+    width: 15vw;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: white;
+    padding: 0 40px;
+    font-size: 16px;
+}
+
+.dropdown a:hover {
+    background: linear-gradient(#e93100, #7e1b00)
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: black;
+    padding: 5px 0px;
+    outline: solid 1px black
+}
+
+hr {
+    border-color: white;
+    border-style: solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.head {
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    margin-left: -35vw;
+    top: 0
+}

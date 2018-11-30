@@ -1,0 +1,47 @@
+img {
+    height: 55vh;
+    width: 45vw
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vw;
+    padding: 195px 0vh;
+    background: rgba(0, 0, 0, 0.642);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center
+}
+
+h2 {
+    color: #e93100;
+    text-shadow: 1px 1px gray;
+}
+
+hr {
+    border-left: inset 1px white;
+    height: 232px;
+    margin: 0px 2px 0px 2px
+}
+
+p {
+    color: white
+}
+
+.column {
+    margin: 0 2vw;
+    width: 20vw
+}

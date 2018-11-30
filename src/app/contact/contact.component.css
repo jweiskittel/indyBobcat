@@ -1,0 +1,90 @@
+.main {
+    background: rgba(0, 0, 0, 0.642);
+    display: flex;
+    padding: 195px 1vw 20px 1vw;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map {
+    margin: 0vh 0 0 2vh
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-left: 1vw;
+    margin-top: 3vh
+}
+
+h4, p {
+    text-align: right;
+    margin-right: 3vw
+}
+
+hr {
+    border-color: white;
+    border-style: inset;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h2 {
+    margin: 0 2vw;
+    color: #e93100;
+    text-shadow: 1px 1px gray;
+    font-size: 31px
+}
+
+h4 {
+    color: #e93100;
+    text-shadow: 1px 1px gray;
+    margin-top: 2vh
+}
+
+.add2 {
+    margin-top: 0
+}
+
+.add1 {
+    margin-bottom:0
+}
+
+#name, #email, #message {
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 1px white;
+    border-radius: 0;
+    color: white;
+    transition: transform .4s
+}
+
+#name:hover, #email:hover, #message:hover {
+    border-bottom: solid 2px #e93100;
+    transform: scale(1.01)
+}
+
+input {
+    color: white;
+}
+
+label {
+    color: gray;
+    font-size: 14px
+}
+
+form {
+    margin-top: 4vh
+}
+
+button {
+    background: #e93100;
+    color: white
+}
