@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
-import { RecreationComponent } from './services/recreation/recreation.component';
+import { ResidentialComponent } from './services/residential/residential.component';
 import { CommercialComponent } from './services/commercial/commercial.component';
 import { OutdoorComponent } from './services/outdoor/outdoor.component';
 import { SnowComponent } from './services/snow/snow.component';
@@ -16,7 +16,7 @@ import { SnowComponent } from './services/snow/snow.component';
     AppComponent,
     HomeComponent,
     ContactComponent,
-    RecreationComponent,
+    ResidentialComponent,
     CommercialComponent,
     OutdoorComponent,
     SnowComponent

@@ -1,14 +1,17 @@
 .main {
     background: rgba(0, 0, 0, 0.642);
     display: flex;
-    padding: 195px 1vw 20px 1vw;
+    flex-direction: column;
+    padding: 195px 1vw 5vh 1vw;
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5vh
 }
 
-.map {
-    margin: 0vh 0 0 2vh
+.top {
+    margin: 0vh 0 5vh 2vh;
+    display: flex
 }
 
 .info {
@@ -17,8 +20,7 @@
     color: white;
     width: 100%;
     text-align: center;
-    margin-left: 1vw;
-    margin-top: 3vh
+    margin-left: 1vw
 }
 
 h4, p {
@@ -57,22 +59,16 @@ h4 {
 
 #name, #email, #message {
     background: transparent;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: solid 1px white;
-    border-radius: 0;
+    border-radius: 10px;
     color: white;
-    transition: transform .4s
+    transition: transform .4s;
+    border: solid 2px gray;
+    
 }
 
 #name:hover, #email:hover, #message:hover {
-    border-bottom: solid 2px #e93100;
+    border: solid 2px #e93100;
     transform: scale(1.01)
-}
-
-input {
-    color: white;
 }
 
 label {
@@ -80,11 +76,31 @@ label {
     font-size: 14px
 }
 
-form {
-    margin-top: 4vh
-}
-
 button {
     background: #e93100;
-    color: white
+    color: white;
+    margin-top: 2vh
+}
+
+.form {
+    background: rgba(0, 0, 0, 0.742);
+    padding: 2vh 5vh;
+    border: solid 3px #e93100;
+    border-radius: 20px;
+    width: 170%
+}
+
+h1 {
+    text-align: center;
+    color: #e93100;
+    padding: 2vh 0 4vh 0;
+    text-shadow: 1.5px 1.5px gray
+}
+
+::placeholder {
+    color: lightgray
+}
+
+iframe {
+    margin: auto
 }
