@@ -14,7 +14,7 @@ img {
     justify-content: center;
     flex-direction: column;
     width: 70vw;
-    padding: 195px 0vh;
+    padding: 195px 1vw 5vh 1vw;
     background: rgba(0, 0, 0, 0.642);
     margin-left: auto;
     margin-right: auto;
@@ -28,9 +28,10 @@ img {
 
 h2 {
     color: #e93100;
-    text-shadow: 1px 1px gray;
-    margin-bottom: 3vh;
-    font-size: 38px
+    text-shadow: 1.5px 1.5px gray;    margin-bottom: 3vh;
+    font-size: 38px;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold
 }
 
 hr {
@@ -41,7 +42,7 @@ hr {
 
 p {
     color: white;
-    font-size: 17px;
+    font-size: 19px;
     text-align: left
 }
 
@@ -51,5 +52,15 @@ p {
 }
 
 .servs {
-    text-align: center
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: .6s
+}
+
+a:hover {
+    color: #e93100
 }

@@ -4,5 +4,12 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover
+    background-size: cover;
+    /* font-family: 'Noto Sans TC', sans-serif; */
+    /* font-family: 'Andada', serif; */
+    /* font-family: 'Faustina', serif; */
+    /* font-family: 'Suravaram', serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    /* font-family: 'Encode Sans Condensed', sans-serif; */
+    /* font-family: 'Pontano Sans', sans-serif; */
 }

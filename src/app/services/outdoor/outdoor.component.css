@@ -8,7 +8,7 @@
     background-size: cover;
     min-height: 75vh;
     margin-top: 155px;
-    padding-top: 100px;
+    padding-top: 8%;
 }
 
 .overlay {
@@ -19,19 +19,24 @@
     padding: 2vw;
     border: solid 3px black;
     border-radius: 20px;
-    color: white
+    color: white;
 }
 
 h1 {
     text-align: center;
     text-shadow: 2px 2px black;
     padding-bottom: 3vw;
-    font-size: 40px
+    font-size: 44px;
+    font-weight: bold
 }
 
 p {
     width: 80%;
     margin: auto;
-    font-size: 20px;
+    font-size: 24px;
     text-shadow: 2px 1px black
+}
+
+a {
+    color: #e93100;
 }

@@ -6,7 +6,6 @@
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5vh
 }
 
 .top {
@@ -39,14 +38,21 @@ hr {
 h2 {
     margin: 0 2vw;
     color: #e93100;
-    text-shadow: 1px 1px gray;
-    font-size: 31px
+    text-shadow: 1.5px 1.5px gray;
+    font-size: 40px;
+    font-weight: bold
 }
 
 h4 {
     color: #e93100;
-    text-shadow: 1px 1px gray;
-    margin-top: 2vh
+    text-shadow: 1.5px 1.5px gray;
+    margin-top: 2vh;
+    font-weight: bold;
+    font-size: 28px
+}
+
+p {
+    font-size: 19px
 }
 
 .add2 {
@@ -79,7 +85,13 @@ label {
 button {
     background: #e93100;
     color: white;
-    margin-top: 2vh
+    margin-top: 2vh;
+    font-size: 20px;
+    transition: .3s
+}
+
+button:hover {
+    transform: scale(1.1)
 }
 
 .form {
@@ -94,7 +106,9 @@ h1 {
     text-align: center;
     color: #e93100;
     padding: 2vh 0 4vh 0;
-    text-shadow: 1.5px 1.5px gray
+    text-shadow: 1.5px 1.5px gray;
+    font-weight: bold;
+    font-size: 46px
 }
 
 ::placeholder {
