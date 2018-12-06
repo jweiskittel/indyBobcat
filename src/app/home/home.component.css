@@ -64,3 +64,80 @@ a {
 a:hover {
     color: #e93100
 }
+
+
+
+
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+    .main {
+        margin: 0;
+        width: 100vw;
+    }
+
+    img {
+        height: 40vh;
+        width: 85vw;
+        margin-top: 1vh
+    }
+
+    hr {
+        height: 340px
+    }
+
+    .info {
+        margin-bottom: 1vh
+    }
+}
+
+
+
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+    hr {
+        height: 415px
+    }
+}
+
+
+
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 415px) {
+    .main {
+        padding: 140px 1vw 5vh 1vw
+    }
+
+    img {
+        height: 30vh
+    }
+
+    .info {
+        flex-direction: column
+    }
+
+    hr {
+        border-bottom: white 1px inset;
+        height: 0;
+        width: 45%;
+        margin: 5vh auto
+    }
+
+    .column {
+        width: 85vw;
+        margin: auto
+    }
+}
+
+
+
+/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 412px) {
+  
+}
+
+
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+
+}

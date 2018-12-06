@@ -57,8 +57,8 @@
     visibility: visible;
     opacity: 1;
     z-index: 100;
-    left: 0;
-    width: 15vw;
+    left: -30%;
+    width: 20vw;
 }
 
 .dropdown a {
@@ -76,13 +76,13 @@
 .dropdown {
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    width: 20vw;
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    left: 0;
+    left: -30%;
     background: black;
-    padding: 5px 0px;
+    /* padding: 5px 0px; */
     outline: solid 1px black;
     transition: .4s ease-in-out
 }
@@ -115,10 +115,6 @@ hr {
     line-height: 6vh
 }
 
-.footerp {
-    margin: 0
-}
-
 .spacer {
     margin: 0vh 1vw
 }
@@ -131,4 +127,153 @@ hr {
 
 .link:hover {
     color: white;
+}
+
+
+
+
+
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+    .footer {
+        height: 3vh;
+        line-height: 3vh;
+        width: 100vw;
+        margin: 0;
+        position: relative;
+        bottom: 0
+    }
+
+    .sides {
+        padding-top: 3vh
+    }
+
+    .middle {
+        padding-top: 1.6vh
+    }
+
+    .navbtns {
+        width: 100vw;
+        margin: 0
+    }
+
+    .logo {
+        width: 100vw;
+        margin: 0
+    }
+
+    .head {
+        left: 0;
+        margin-left: 0
+    }
+
+    .dropdown {
+        width: 25vw
+    }
+
+    .navbtn2:hover .dropdown {
+        visibility: visible;
+        opacity: 1;
+        z-index: 100;
+        left: 0;
+        width: 25vw;
+    }
+}
+
+
+
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+    .dropdown {
+        width: 30vw
+    }
+
+    .navbtn2:hover .dropdown {
+        visibility: visible;
+        opacity: 1;
+        z-index: 100;
+        left: 0;
+        width: 30vw;
+    }
+}
+
+
+
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 415px) {
+    .middle {
+        font-size: 32px;
+        padding-top: 1.8vh
+    }
+
+    .sides {
+        display: none
+    }
+
+    .logo {
+        height: 70px
+    }
+
+    .navbtns {
+        height: 40px
+    }
+
+    .navbtn, .navbtn2 {
+        line-height: 35px;
+        font-size: 18px;
+        padding: 0px 35px
+    }
+
+    .footer {
+        height: 5vh;
+        line-height: 5vh
+    }
+
+    .dropdown {
+        width: 52vw;
+        left: -30%
+    }
+
+    .navbtn2:hover .dropdown {
+        visibility: visible;
+        opacity: 1;
+        z-index: 100;
+        left: -30%;
+        width: 52vw;
+    }
+}
+
+
+
+/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 412px) {
+  .footer {
+      font-size: 14px
+  }
+
+  .dropdown {
+    width: 58vw;
+    left: -30%
+}
+
+.navbtn2:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+    z-index: 100;
+    left: -30%;
+    width: 58vw;
+}
+}
+
+
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+    .navbtn, .navbtn2 {
+        font-size: 19px
+    }
+
+    .dropdown a {
+        font-size: 18px
+    }
 }

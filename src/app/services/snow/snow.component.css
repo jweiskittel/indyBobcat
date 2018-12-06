@@ -40,3 +40,93 @@ p {
 a {
     color: #e93100;
 }
+
+
+
+
+
+
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+    .main {
+        width: 100vw;
+        padding-top: 30vh;
+        height: 85.7vh
+    }
+}
+
+
+
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+  .main {
+      height: 81.9vh;
+      padding-top: 20vh
+  }
+}
+
+
+
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 415px) {
+    .main {
+        margin-top: 110px;
+        padding-top:8vh;
+        height: 80.4vh
+    }
+
+    p {
+        font-size: 21px;
+        text-align: center;
+        margin: 1vh auto
+    }
+
+    h1 {
+        font-size: 40px;
+        margin: 1vh 0
+    }
+}
+
+
+
+/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 412px) {
+    .main {
+        margin-top: 110px;
+        padding-top:8vh;
+        height: 81.5vh
+    }
+
+    p {
+        font-size: 19px;
+        text-align: center;
+        margin: 1vh auto
+    }
+
+    h1 {
+        font-size: 36px;
+        margin: 1vh 0
+    }
+}
+
+
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+    .main {
+        margin-top: 110px;
+        padding-top:8vh;
+        height: 77.8vh
+    }
+
+    p {
+        font-size: 18px;
+        text-align: center;
+        margin: 1vh auto
+    }
+
+    h1 {
+        font-size: 36px;
+        margin: 1vh 0
+    }
+}
