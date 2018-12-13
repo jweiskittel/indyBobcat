@@ -6,7 +6,6 @@
 /out-tsc
 
 # dependencies
-!/node_modules/owl.carousel
 /node_modules
 
 # IDEs and editors
