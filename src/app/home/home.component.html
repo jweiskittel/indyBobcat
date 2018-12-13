@@ -1,22 +1,13 @@
 <div class='spacer'></div>
 <div class='main'>
   <div>
-    <div class='carousel'>
-      <ngb-carousel interval='2500'>
-        <ng-template ngbSlide>
-          <img src='../../assets/bobcat7.jpg' alt="Picture 1">
-        </ng-template>
-        <ng-template ngbSlide>
-          <img src='../../assets/bobcat8.jpg' alt="Picture 2">
-        </ng-template>
-        <ng-template ngbSlide>
-          <img src='../../assets/bobcat4.jpg' alt="Picture 3">
-        </ng-template>
-        <ng-template ngbSlide>
-          <img src='../../assets/bobcat9.jpg' alt="Picture 4">
-        </ng-template>
-      </ngb-carousel>
-    </div>
+    <owl-carousel [options]='options' [items]='images' [carouselClasses]="['owl-theme', 'sliding']">
+      <div class='item' *ngFor='let image of images'>
+        <div>
+          <img src={{image}}>
+        </div>
+      </div>
+    </owl-carousel>
   </div>
   <div class='info'>
     <div class='column'>

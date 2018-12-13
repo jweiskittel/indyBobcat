@@ -10,6 +10,7 @@ import { ResidentialComponent } from './services/residential/residential.compone
 import { CommercialComponent } from './services/commercial/commercial.component';
 import { OutdoorComponent } from './services/outdoor/outdoor.component';
 import { SnowComponent } from './services/snow/snow.component';
+import { OwlModule } from 'ngx-owl-carousel';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SnowComponent } from './services/snow/snow.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]

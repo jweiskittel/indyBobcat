@@ -65,6 +65,10 @@ a:hover {
     color: #e93100
 }
 
+.owl-dot.active {
+    background: #e93100
+}
+
 
 
 
